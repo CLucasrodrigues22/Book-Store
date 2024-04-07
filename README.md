@@ -54,13 +54,13 @@ Welcome to the Book-Store repository! This Laravel project manages books and sto
 ### 📚 Book
 
 - **Name**: Required field for the book's name.
-- **ISBN**: Only accepts numbers for the International Standard Book Number.
+- **ISBN**: Only accepts numbers and is unique.
 - **Value**: Decimal value representing the price of the book.
 
 ### 🛒 Store
 
 - **Name**: Name of the store.
-- **Address**: Physical address of the store.
+- **Address**: Address of the store.
 - **Active**: Status indicating whether the store is active or not.
 
 ### 📚<->🛒 Book-Store Relationship
